@@ -217,7 +217,6 @@ Recent roadmap priorities include:
 - Making Ethereum easier for developers to build on
 
 One recent upgrade was **Fusaka**, launched in December 2025.
-
 It introduced PeerDAS to improve Layer 2 data availability and increased Ethereum's default gas limit.
 
 Following Fusaka, Ethereum’s roadmap includes two planned upgrades for the second half of 2026: Glamsterdam and Hegotá. Glamsterdam focuses on improving how Ethereum processes blocks and scales the network, while Hegotá is expected to continue Ethereum’s long-term development. At the time of writing, many of Hegotá’s headline proposals are still being discussed, showing that Ethereum’s roadmap continues to evolve through community collaboration rather than fixed plans.
