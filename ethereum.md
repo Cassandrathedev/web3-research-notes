@@ -1,173 +1,285 @@
-> Status: 🟡 Active Research
-> Last Updated: July 2026
-> Estimated Reading Time: 8 minutes
-
-
 # Ethereum
 
-## Overview
-
-Ethereum is a decentralized blockchain network and software development platform powered by its native cryptocurrency, Ether (ETH).
-
-It was launched in July 2015 by Vitalik Buterin and a group of co-founders with the goal of expanding what blockchains could do. While Bitcoin introduced decentralized digital money, Ethereum introduced the idea of programmable blockchains through smart contracts.
-
-Today, Ethereum has grown into one of the largest blockchain ecosystems in the world. It powers thousands of decentralized applications (dApps), stablecoins, decentralized finance (DeFi) protocols, NFTs, DAOs, blockchain games, and many other Web3 projects.
-
-One thing I find interesting about Ethereum is that it isn't just another cryptocurrency. It is more like a global platform where developers can build applications that anyone with an internet connection can access.
-
----
-
-## Why was Ethereum created?
-
-Ethereum was created to solve a limitation that existed with Bitcoin.
-
-Bitcoin is excellent at transferring value between people, but it was never designed to support complex applications.
-
-Vitalik Buterin proposed Ethereum as a blockchain that could execute programmable code called smart contracts. Instead of only sending money, developers could build applications that run automatically without depending on banks, governments, or centralized companies.
-
-This idea introduced an entirely new way of building software where trust comes from code rather than intermediaries.
+> **Status:** 🟡 Active Research
+> Version: 1.0
+> Last Updated: July 2026
+>
+> Reading Time: ~12 minutes
+>
+> Author's Note:
+> This document is part of my Web3 research journey. It reflects my current understanding of Ethereum based on official documentation, the Ethereum Whitepaper, developer resources, and my own analysis. As I continue learning, I'll keep updating this document with new insights, corrections, and protocol changes.
 
 ---
 
-## What is Ethereum used for?
+# Overview
 
-Ethereum supports many different types of applications and industries.
+Ethereum is a decentralized blockchain network and software platform powered by its native cryptocurrency, Ether (ETH).
 
-### Financial Services (DeFi)
+Unlike traditional blockchains that mainly focus on transferring digital assets, Ethereum allows developers to build programmable applications using smart contracts. These applications run on a decentralized network instead of relying on a single company or server.
 
-People can borrow, lend, save, invest, or swap digital assets without using traditional banks.
+Ethereum officially launched in July 2015 after being proposed by Vitalik Buterin in 2013.
 
-### Stablecoins
+Since then, it has grown into one of the largest blockchain ecosystems, supporting thousands of decentralized applications (dApps), decentralized finance (DeFi), stablecoins, NFTs, DAOs, blockchain games, and many other Web3 projects.
 
-Companies such as PayPal launched PYUSD on Ethereum because of its secure and programmable infrastructure.
+One thing I quickly realized while researching Ethereum is that it isn't simply another cryptocurrency.
 
-Stablecoins have become one of Ethereum's biggest use cases because they combine blockchain technology with price stability.
+It is infrastructure.
 
-### NFTs
-
-Ethereum made it possible for creators to own and sell digital art, collectibles, music, and other digital assets through NFTs.
-
-### Gaming
-
-Developers can build blockchain games where players truly own their in-game assets.
-
-### Decentralized Social Media
-
-Applications can give users ownership of their identities and content instead of relying on centralized platforms.
-
-### Governments and NGOs
-
-Some governments and humanitarian organizations have explored Ethereum for transparent aid distribution, digital identities, and public records.
-
-For example, Ukraine's Ministry of Digital Transformation used Ethereum-based solutions to distribute wartime aid more transparently.
+Just like the internet allows developers to build websites, Ethereum allows developers to build decentralized applications that anyone can access.
 
 ---
 
-## Who founded Ethereum?
+# Why was Ethereum created?
 
-Ethereum began as an idea proposed by Vitalik Buterin in 2013 through the Ethereum Whitepaper.
+Ethereum was created because Bitcoin had limitations.
+
+Bitcoin introduced decentralized digital money and proved that value could be transferred without relying on banks.
+
+However, Bitcoin wasn't designed to support complex applications.
+
+Vitalik Buterin imagined a blockchain that could execute programmable code.
+
+Instead of only transferring digital money, developers could create applications that automatically execute agreements using smart contracts.
+
+This idea completely changed what blockchains could be used for.
+
+Rather than simply moving money, Ethereum became a platform where developers could build financial products, marketplaces, identity systems, games, governance systems, and many other applications.
+
+Instead of trusting an institution, users could trust transparent code.
+
+---
+
+# Why Ethereum Matters
+
+One question I kept asking myself while researching Ethereum was:
+
+**"Why has Ethereum become the foundation for so many Web3 projects?"**
+
+I think the answer is flexibility.
+
+Ethereum isn't built around one application.
+
+Instead, it provides an open platform where anyone can build their own.
+
+This has created an ecosystem where developers continue building new ideas without asking permission from a central authority.
+
+That openness has helped Ethereum become one of the most active developer communities in blockchain.
+
+---
+
+# How Ethereum is Used Today
+
+Ethereum supports many different industries and use cases.
+
+## Decentralized Finance (DeFi)
+
+Users can lend, borrow, save, invest and trade digital assets without relying on traditional financial institutions.
+
+## Stablecoins
+
+Ethereum hosts several major stablecoins, including PayPal USD (PYUSD). PayPal initially launched PYUSD as an ERC-20 token on Ethereum, demonstrating that large financial companies are building on Ethereum’s ecosystem.
+
+Stablecoins have become one of Ethereum's strongest real-world use cases.
+
+## NFTs
+
+Ethereum introduced a new way to own digital assets.
+
+Artists, musicians, creators and businesses can issue unique digital collectibles that users truly own.
+
+## Gaming
+
+Blockchain games built on Ethereum allow players to own, trade and transfer in-game assets.
+
+## DAOs
+
+Ethereum allows communities to coordinate and make decisions collectively through decentralized governance.
+
+## Governments and Humanitarian Organizations
+
+Some governments and NGOs have explored Ethereum for digital identity, aid distribution and public records.
+
+Ukraine's Ministry of Digital Transformation, for example, used Ethereum-based technology to improve transparency while distributing wartime aid.
+
+---
+
+# Who Founded Ethereum?
+
+Ethereum began with the publication of the Ethereum Whitepaper by Vitalik Buterin in 2013.
 
 In 2014, several co-founders including Gavin Wood and Joseph Lubin joined the project.
 
 Ethereum officially launched in July 2015.
 
-Today, Ethereum is no longer controlled by any single individual or company. Instead, it is maintained by a global community of developers, researchers, validators, and contributors who work together to improve the network.
+Today, Ethereum is not owned by any single individual or company.
+
+Instead, thousands of developers, researchers, validators and contributors from around the world continue improving the protocol through open collaboration.
 
 ---
 
-## How Ethereum has evolved
+# How Ethereum Has Evolved
 
-One thing that stood out while reading the Ethereum Whitepaper is how much Ethereum has evolved since it was first proposed.
+One of the most interesting things I noticed while comparing the Ethereum Whitepaper with today's Ethereum is how much the network has evolved.
 
-When Ethereum launched, it used the Proof of Work (PoW) consensus mechanism, where miners secured the network by solving complex mathematical problems. While this approach provided strong security, it also consumed significant amounts of electricity.
+When Ethereum launched, it relied on Proof of Work (PoW), where miners secured the network by solving computational puzzles.
 
-In September 2022, Ethereum completed one of the biggest upgrades in blockchain history known as "The Merge", transitioning from Proof of Work to Proof of Stake (PoS).
+Although this approach provided strong security, it required significant energy consumption.
 
-This change reduced Ethereum's energy consumption dramatically and introduced validators instead of miners.
+In September 2022, Ethereum completed **The Merge**, replacing Proof of Work with Proof of Stake (PoS).
 
-Although the core mission of Ethereum remained the same—to provide a decentralized platform for applications—the way it achieves network security changed significantly.
+Validators replaced miners as the mechanism for securing the network.
 
-From my understanding, The Merge was both a technical upgrade and a philosophical shift.
+After learning more about The Merge, I don't think it was only a technical upgrade.
 
-Technically, it prepared Ethereum for future scalability improvements while making the network far more energy efficient.
+I think it also represented a philosophical shift.
 
-Philosophically, Ethereum moved from securing the network through computational work to securing it through economic incentives and staking.
+Technically, Proof of Stake dramatically reduced Ethereum's energy consumption and prepared the protocol for future scaling improvements.
 
-The goal stayed the same, but the approach evolved.
+Philosophically, Ethereum changed *how* it secures the network.
 
----
+Instead of relying on computational work, security now comes from economic incentives through staking.
 
-## Current challenges
+Although the mechanism changed, Ethereum's core mission remained the same:
 
-Despite Ethereum's success, several challenges remain.
-
-### Scalability
-
-Although Layer 2 networks such as Arbitrum, Base, and Optimism help increase transaction capacity, improving scalability remains an ongoing priority.
-
-### User Experience
-
-Using wallets, understanding gas fees, and interacting with decentralized applications can still feel difficult for new users.
-
-### Smart Contract Security
-
-Ethereum itself is highly secure, but poorly written smart contracts can still contain vulnerabilities that attackers exploit.
-
-### Regulation
-
-As governments continue developing cryptocurrency regulations, Ethereum-based applications must adapt to different legal requirements across countries.
+To provide a decentralized platform where anyone can build applications.
 
 ---
 
-## Recent developments
+# Design Trade-offs
 
-Ethereum continues to improve through Ethereum Improvement Proposals (EIPs).
+One concept that stood out while researching Ethereum is that every improvement comes with trade-offs.
 
-Unlike traditional companies, there is no CEO deciding what gets added to Ethereum.
+Ethereum is constantly balancing three important goals:
 
-Developers from around the world propose upgrades, discuss them publicly, and implement improvements based on community consensus.
+- Security
+- Decentralization
+- Scalability
 
-One recent upgrade was "Fusaka", launched in December 2025.
+Improving one area often affects another.
 
-Fusaka introduced PeerDAS to improve Layer 2 data availability and increased Ethereum's default gas limit to approximately 60 million.
+Rather than trying to maximize all three directly on the base layer, Ethereum's current strategy relies heavily on Layer 2 networks.
 
-Looking ahead, the "Glamsterdam" upgrade is expected during the second half of 2026.
+Networks such as Arbitrum, Base and Optimism process many transactions while Ethereum focuses on security and settlement.
 
-Ethereum's current roadmap focuses on making the network faster, cheaper, easier to use, and more scalable while maintaining decentralization and security.
+Before reading Ethereum's roadmap, I assumed scaling simply meant making Ethereum faster.
 
----
+Now I understand that Ethereum's long-term vision is much more modular.
 
-## My Thoughts
-
-Before researching Ethereum, I mostly saw it as the blockchain that introduced smart contracts.
-
-After reading more, I now see Ethereum as something much bigger.
-
-It is constantly evolving through community-driven improvements instead of remaining fixed after launch.
-
-One thing I found particularly interesting is that Ethereum's transition from Proof of Work to Proof of Stake was not simply about reducing energy consumption.
-
-To me, it represented both a technical upgrade and a philosophical shift.
-
-Ethereum changed 'how' it secures the network while preserving its original mission of being a decentralized platform where anyone can build applications.
-
-I also like that Ethereum continues to adapt through EIPs. Rather than assuming the protocol is already perfect, the community continuously looks for ways to improve scalability, security, and user experience.
+Instead of one blockchain doing everything, different layers work together.
 
 ---
 
-## Questions I'm Exploring
+# Current Challenges
 
-- How much scalability can Layer 2 networks realistically provide?
-- Will account abstraction make Ethereum easier for non-technical users?
-- How can Ethereum be adopted safely within healthcare systems?
-- Can decentralized identity become a practical healthcare solution?
-- How will future upgrades like Glamsterdam shape Ethereum's long-term roadmap?
+Even though Ethereum has become one of the most successful blockchain ecosystems, several important challenges remain.
+
+## Scalability
+
+Ethereum continues working toward lower transaction costs while supporting more users.
+
+Layer 2 networks help significantly, but improving scalability remains an ongoing effort.
+
+## User Experience
+
+Wallet setup, gas fees and blockchain terminology can still feel confusing for new users.
+
+Improving user experience is one of Ethereum's biggest priorities.
+
+## Smart Contract Security
+
+Although Ethereum itself is secure, applications built on Ethereum can still contain vulnerabilities if developers make mistakes.
+
+This is why smart contract auditing remains extremely important.
+
+## Regulation
+
+As governments continue developing cryptocurrency regulations, Ethereum-based projects must adapt to different legal requirements around the world.
 
 ---
 
-## References
+# Ethereum's Roadmap
+
+Ethereum's development didn't stop after launch.
+
+The protocol continues evolving through Ethereum Improvement Proposals (EIPs).
+
+Unlike traditional software companies, Ethereum doesn't have a CEO deciding which features get added.
+
+Developers and researchers publicly discuss improvements before they are implemented.
+
+Recent roadmap priorities include:
+
+- Making transactions cheaper
+- Improving user experience
+- Strengthening Ethereum's security
+- Future-proofing the protocol
+- Supporting Layer 2 scalability
+- Making Ethereum easier for developers to build on
+
+One recent upgrade was **Fusaka**, launched in December 2025.
+
+It introduced PeerDAS to improve Layer 2 data availability and increased Ethereum's default gas limit.
+
+The next planned upgrade, **Glamsterdam**, is expected during the second half of 2026.
+
+One thing I noticed while reading the roadmap is that Ethereum's focus has shifted.
+
+Early Ethereum was proving blockchain technology could support programmable applications.
+
+Today's Ethereum is focused on making those applications practical for millions of users.
+
+---
+
+# My Research Notes
+
+## What surprised me
+
+I originally thought Ethereum was simply "the blockchain that introduced smart contracts."
+
+After reading more, I realized Ethereum is constantly evolving.
+
+It isn't a finished product.
+
+It's an ecosystem that continuously improves through community collaboration.
+
+---
+
+## What changed my mind
+
+Reading both the Ethereum Whitepaper and the current roadmap showed me how much Ethereum has evolved.
+
+The Whitepaper describes Ethereum's original vision, while the roadmap shows how that vision continues adapting to new technical challenges.
+
+---
+
+## My opinion
+
+One conclusion I've reached so far is that Ethereum's greatest strength isn't simply smart contracts.
+
+It's its willingness to evolve.
+
+Instead of remaining fixed after launch, Ethereum continues improving through open discussion, research and community-driven upgrades.
+
+I also think Ethereum's decision to focus on Layer 2 scaling instead of putting every solution on the base layer is an interesting long-term strategy.
+
+As I continue researching, I'm curious to see how successful this approach becomes over the next few years.
+
+---
+
+# Open Research Questions
+
+- Can Layer 2 networks continue scaling without creating unnecessary complexity?
+- Will account abstraction significantly improve user experience?
+- How will future upgrades change Ethereum's long-term architecture?
+- What trade-offs will Ethereum continue making between scalability, decentralization and security?
+- How can Ethereum be safely adopted within healthcare systems?
+
+---
+
+# References
 
 - Ethereum.org
 - Ethereum Whitepaper
 - Ethereum Documentation
+- Ethereum Roadmap
 - Ethereum Improvement Proposals (EIPs)
