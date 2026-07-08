@@ -1,12 +1,14 @@
 # Ethereum
 
 > **Status:** 🟡 Active Research
-> Version: 1.0
-> Last Updated: July 2026
+> 
+> **Version:** 1.0
+> 
+> **Last Updated:** July 2026
 >
-> Reading Time: ~12 minutes
+> **Reading Time:** ~12 minutes
 >
-> Author's Note:
+> **Author's Note:**
 > This document is part of my Web3 research journey. It reflects my current understanding of Ethereum based on official documentation, the Ethereum Whitepaper, developer resources, and my own analysis. As I continue learning, I'll keep updating this document with new insights, corrections, and protocol changes.
 
 ---
